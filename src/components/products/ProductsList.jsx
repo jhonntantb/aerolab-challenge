@@ -2,6 +2,7 @@ import React, { useState,useEffect } from 'react';
 import { useDispatch, useSelector } from "react-redux"
 import { getAllProducts } from '../../redux/actions';
 import CardProduct from './CardProduct';
+import "./ProductsList.css"
 
 function ProductsList() {
     const dispatch = useDispatch();
@@ -10,6 +11,7 @@ function ProductsList() {
     const [cardsPerPage,setCardsPerPage]=useState(16)
 
     const products=useSelector(state=>state.products)
+    const total=products.length
     useEffect(() => {
        dispatch(getAllProducts())
     }, [])
@@ -19,8 +21,13 @@ function ProductsList() {
     }, [products])
     return (
         <div>
-            <div>
-
+            <div className="sort">
+                <p>{"16 of "}{total} products</p>
+                <p>|</p>
+                <p>Sort by:</p>
+                <button>Most recent</button>
+                <button>Lowets price</button>
+                <button>Highest price</button>
             </div>
             <div>
             {productsView.length>0&&productsView.map(e=><CardProduct 

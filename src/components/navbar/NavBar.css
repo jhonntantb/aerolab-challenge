@@ -1,0 +1,28 @@
+.box {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow:5px 5px 5px rgb(117, 116, 116);
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+.name{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.coins {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(170, 166, 166);
+    padding-top: 0%;
+    border-radius: 10px;
+}
+.points{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 5px;
+}

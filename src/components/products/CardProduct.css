@@ -1,4 +1,24 @@
 .card{
     width: 276px;
     height: 276px;
+    padding: 36px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+}
+.imgProduct {
+    box-shadow: 0 1px  rgb(128, 126, 126);
+}
+.card:hover{
+    background-color: rgb(49, 139, 212);
+}
+.imgProduct:hover{
+    background-color: rgb(49, 139, 212);
+}
+.buyBtn{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }

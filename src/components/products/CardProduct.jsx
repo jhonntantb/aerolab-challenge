@@ -5,11 +5,11 @@ import buy from "./buy-blue.svg"
 function CardProduct({image,name,category,cost}) {
     return (
         <div className="card">
-            <div className="image">
-            <img src={image} alt="no fount" />
-            <button>
+            <button className="buyBtn">
                 <img src={buy} alt="" />
             </button>
+            <div className="image">
+            <img className="imgProduct" src={image} alt="no fount" />
             </div>
             <p>{name}</p>
             <p>{category}</p>

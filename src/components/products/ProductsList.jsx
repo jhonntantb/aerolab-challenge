@@ -43,7 +43,7 @@ function ProductsList() {
     let currentItems= productsView.slice(indexOfFirstItem,indexOfLastItem);
 
     return (
-        <div>
+        <div style={{backgroundColor:"#f9f9f9"}}>
             <div className="sort">
                 <p>{"16 of "}{total} products</p>
                 <p>|</p>

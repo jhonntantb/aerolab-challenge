@@ -17,7 +17,7 @@ function NavBar() {
     return (
         <header className="box">
             <div>
-                <img  src={Logo} width="50" height="50" style={{padding:"10px"}} alt="" />
+                <img  src={Logo} width="39" height="36" style={{padding:"10px"}} alt="" />
             </div>
             <div className="info">
                 <p className="name">{user?.name}</p>

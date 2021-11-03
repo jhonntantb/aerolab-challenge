@@ -7,4 +7,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    padding-left: 132px;
+    padding-right: 132px;
 }

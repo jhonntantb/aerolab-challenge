@@ -16,8 +16,8 @@ function NavBar() {
     const user = useSelector(state => state.user)
     return (
         <header className="box">
-            <div>
-                <img  src={Logo} width="39" height="36" style={{padding:"10px"}} alt="" />
+            <div className="logo">
+                <img  src={Logo}  alt="" />
             </div>
             <div className="info">
                 <p className="name">{user?.name}</p>

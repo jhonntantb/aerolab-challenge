@@ -45,7 +45,9 @@ function ProductsList() {
     return (
         <div style={{backgroundColor:"#f9f9f9"}}>
             <div className="sort">
-                <p>{"16 of "}{total} products</p>
+                <div>
+                    <p>{"16 of "}{total} products</p>
+                </div>
                 <p>|</p>
                 <p>Sort by:</p>
                 <button value="mostRecent" onClick={e=>handleSortPrice(e)} >Most recent</button>
@@ -58,6 +60,13 @@ function ProductsList() {
             name={e.name} 
             cost={e.cost} 
             category={e.category} />)}
+            </div>
+            <div className="infobot">
+                <p>{"16 of "}{total} products</p>
+                <div>
+                    <img src="" alt="" />
+                    <img src="" alt="" />
+                </div>
             </div>
         </div>
     )

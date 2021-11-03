@@ -2,7 +2,13 @@
     background-color: white;
     display: flex;
     justify-content: space-between;
-    box-shadow:5px 5px 5px rgb(117, 116, 116);
+    height: 80px;
+}
+.logo{
+    margin-left: 42px;
+    margin: 22px;
+    width: 39px;
+    height: 36px;
 }
 .info {
     display: flex;
@@ -10,19 +16,33 @@
     padding-right: 50px;
 }
 .name{
-    font-size: 20px;
-    padding: 20px;
+    font-family:SourceSansPro-Regular;
+    font-size:24px;
+    color:#616161;
+    letter-spacing:-0.15px;
+    line-height:48px;
+    text-align:left;
+    padding-right: 17px;
 }
 
 .coins {
     display: flex;
-    justify-content: space-between;
-    background-color: rgb(170, 166, 166);
-    padding-top: 0%;
-    border-radius: 10px;
+    flex-direction: row;
+    background:#ededed;
+    border-radius:100px;
+    width:103px;
+    height:48px;
+    margin-top: 16px;
+}
+.coins img {
+    width: 24px;
+    height: 24px;
 }
 .points{
-    font-size: 20px;
-    padding-left: 10px;
-    padding-right: 5px;
+    font-family:SourceSansPro-Regular;
+    font-size:24px;
+    color:#616161;
+    letter-spacing:-0.15px;
+    line-height:48px;
+    text-align:left;
 }

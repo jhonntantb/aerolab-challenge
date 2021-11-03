@@ -1,6 +1,7 @@
 .sort{
     display: flex;
     flex-direction: row;
+    padding-left: 200px;
 }
 .productList{
     display: flex;
@@ -9,4 +10,17 @@
     justify-content: center;
     padding-left: 132px;
     padding-right: 132px;
+}
+.infobot{
+    padding-left: 208px;
+    padding-block-end: 99px;
+    padding-top: 60px;
+}
+.infobot p{
+    font-family:SourceSansPro-Regular;
+    font-size: 24px;
+    color:#616161;
+    letter-spacing:-0.15px;
+    line-height:48px;
+    text-align:left;
 }
